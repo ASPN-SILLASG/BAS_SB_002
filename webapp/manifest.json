@@ -16,13 +16,6 @@
       "toolsId": "06b2e2aa-185e-4056-802e-34d6f830b5c6"
     },
     "dataSources": {
-      "YSB_ASSB_0020_O2_VAN": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='YSB_ASSB_0020_O2_VAN',Version='0001')/$value/",
-        "type": "ODataAnnotation",
-        "settings": {
-          "localUri": "localService/mainService/YSB_ASSB_0020_O2_VAN.xml"
-        }
-      },
       "annotation": {
         "type": "ODataAnnotation",
         "uri": "annotations/annotation.xml",
@@ -30,13 +23,19 @@
           "localUri": "annotations/annotation.xml"
         }
       },
+      "ZUI_ASSB_0010_O2_VAN": {
+        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_ASSB_0010_O2_VAN',Version='0001')/$value/",
+        "type": "ODataAnnotation",
+        "settings": {
+          "localUri": "localService/mainService/ZUI_ASSB_0010_O2_VAN.xml"
+        }
+      },
       "mainService": {
-        "uri": "/sap/opu/odata/sap/YSB_ASSB_0020_O2/",
+        "uri": "/sap/opu/odata/sap/ZUI_ASSB_0010_O2/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "YSB_ASSB_0020_O2_VAN",
-            "annotation"
+            "ZUI_ASSB_0010_O2_VAN"
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
@@ -98,21 +97,14 @@
           "bundleName": "zcbosb0002.i18n.i18n"
         }
       },
-      "": {
-        "dataSource": "mainService",
-        "preload": true,
-        "settings": {
-          "defaultBindingMode": "TwoWay",
-          "defaultCountMode": "Inline",
-          "refreshAfterChange": false,
-          "metadataUrlParams": {
-            "sap-value-list": "none"
-          }
-        }
-      },
       "@i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "uri": "i18n/i18n.properties"
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {}
       }
     },
     "resources": {
@@ -137,8 +129,8 @@
       }
     },
     "pages": {
-      "ListReport|YC_ASSB_0020": {
-        "entitySet": "YC_ASSB_0020",
+      "ListReport|ZC_ASSB_0020": {
+        "entitySet": "ZC_ASSB_0020",
         "component": {
           "name": "sap.suite.ui.generic.template.ListReport",
           "list": true,
@@ -157,8 +149,8 @@
           }
         },
         "pages": {
-          "ObjectPage|YC_ASSB_0020": {
-            "entitySet": "YC_ASSB_0020",
+          "ObjectPage|ZC_ASSB_0020": {
+            "entitySet": "ZC_ASSB_0020",
             "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
             "component": {
               "name": "sap.suite.ui.generic.template.ObjectPage"

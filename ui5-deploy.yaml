@@ -14,12 +14,12 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-          destination: ZAM_DEV_SAML_ASSERTION
-          url: https://my407000.s4hana.cloud.sap
+          url: https://my424846-api.s4hana.cloud.sap
+          destination: SILLA_DEV
           authenticationType: reentranceTicket # SAML support for vscode
         app:
           name: ZSB_0002
-          package: ZSB01
-          transport: ZAMK900745
+          package: ZSB_0002
+          transport: TXYK900051
         exclude:
           - /test/

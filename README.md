@@ -16,7 +16,7 @@
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
-|**Main Entity**<br>YC_ASSB_0020|
+|**Main Entity**<br>ZC_ASSB_0020|
 
 ## zcbo_sb_0002
 

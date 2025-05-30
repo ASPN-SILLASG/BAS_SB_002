@@ -32,21 +32,21 @@ server:
     - name: fiori-tools-proxy
       afterMiddleware: compression
       configuration:
-        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        ignoreCertError: false
         backend:
-          - authenticationType: reentranceTicket # SAML support for vscode
+          - authenticationType: reentranceTicket
             path: /sap
-            url: https://my407000.s4hana.cloud.sap
-            destination: ZAM_DEV_SAML_ASSERTION
+            url: https://my424846-api.s4hana.cloud.sap
+            destination: SILLA_DEV
     - name: sap-fe-mockserver
       beforeMiddleware: csp
       configuration:
         mountPath: /
         services:
-          - urlPath: /sap/opu/odata/sap/YSB_ASSB_0020_O2
+          - urlPath: /sap/opu/odata/sap/ZUI_ASSB_0010_O2
             metadataPath: ./webapp/localService/mainService/metadata.xml
             mockdataPath: ./webapp/localService/mainService/data
             generateMockData: true
         annotations:
-          - localPath: ./webapp/localService/mainService/YSB_ASSB_0020_O2_VAN.xml
-            urlPath: /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='YSB_ASSB_0020_O2_VAN',Version='0001')/$value/
+          - localPath: ./webapp/localService/mainService/ZUI_ASSB_0010_O2_VAN.xml
+            urlPath: /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_ASSB_0010_O2_VAN',Version='0001')/$value/
