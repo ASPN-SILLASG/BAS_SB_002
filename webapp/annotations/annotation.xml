@@ -8,8 +8,13 @@
     <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
         <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
     </edmx:Reference>
+<<<<<<< HEAD
     <edmx:Reference Uri="/sap/opu/odata/sap/YSB_ASSB_0020_O2/$metadata">
         <edmx:Include Namespace="cds_ysd_assb_0020"/>
+=======
+    <edmx:Reference Uri="/sap/opu/odata/sap/Z002_SB_002_UI_01/$metadata">
+        <edmx:Include Namespace="cds_z002_sb_002_sd_01"/>
+>>>>>>> 8af99bd (git commit)
     </edmx:Reference>
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
