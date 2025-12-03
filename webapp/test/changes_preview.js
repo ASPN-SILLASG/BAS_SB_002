@@ -163,11 +163,7 @@ if (parseInt(version[0], 10) <= 1 && parseInt(version[1], 10) < 78) {
                                             oResult.changes = aProcessedChanges;
                                             var oLrepChange = {
                                                 changes: oResult,
-<<<<<<< HEAD
-                                                componentClassName: "zcbosb0002"
-=======
                                                 componentClassName: "z002sb002"
->>>>>>> 8af99bd (git commit)
                                             };
                                             resolve(oLrepChange);
                                         });
@@ -178,11 +174,7 @@ if (parseInt(version[0], 10) <= 1 && parseInt(version[1], 10) < 78) {
                                         oResult.changes = aProcessedChanges;
                                         var oLrepChange = {
                                             changes: oResult,
-<<<<<<< HEAD
-                                            componentClassName: "zcbosb0002"
-=======
                                             componentClassName: "z002sb002"
->>>>>>> 8af99bd (git commit)
                                         };
                                         resolve(oLrepChange);
                                     }

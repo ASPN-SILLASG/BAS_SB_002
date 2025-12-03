@@ -2,11 +2,7 @@
 
 specVersion: "3.1"
 metadata:
-<<<<<<< HEAD
-  name: zcbosb0002
-=======
   name: z002sb002
->>>>>>> 8af99bd (git commit)
 type: application
 builder:
   resources:
@@ -18,15 +14,6 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-<<<<<<< HEAD
-          url: https://my424846-api.s4hana.cloud.sap
-          destination: SILLA_DEV
-          authenticationType: reentranceTicket # SAML support for vscode
-        app:
-          name: ZSB_0002
-          package: ZSB_0002
-          transport: TXYK900051
-=======
           destination: SILLA_DEV
           url: https://my425835.s4hana.cloud.sap
           authenticationType: reentranceTicket # SAML support for vscode
@@ -34,6 +21,5 @@ builder:
           name: Z002_SB_002
           package: Z002_SB_002
           transport: AAWK900261
->>>>>>> 8af99bd (git commit)
         exclude:
           - /test/

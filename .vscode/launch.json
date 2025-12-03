@@ -2,11 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-<<<<<<< HEAD
-      "name": "Start zcbo_sb_0002",
-=======
       "name": "Start z002_sb_002",
->>>>>>> 8af99bd (git commit)
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
@@ -20,11 +16,7 @@
       ],
       "args": [
         "--open",
-<<<<<<< HEAD
-        "test/flpSandbox.html#zcbosb0002-tile"
-=======
         "test/flpSandbox.html#z002sb002-tile"
->>>>>>> 8af99bd (git commit)
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
@@ -32,19 +24,11 @@
       "env": {
         "DEBUG": "--inspect",
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-<<<<<<< HEAD
-        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zcbo_sb_0002\"}"
-      }
-    },
-    {
-      "name": "Start zcbo_sb_0002 Mock",
-=======
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/z002_sb_002\"}"
       }
     },
     {
       "name": "Start z002_sb_002 Mock",
->>>>>>> 8af99bd (git commit)
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
@@ -60,30 +44,18 @@
         "--config",
         "./ui5-mock.yaml",
         "--open",
-<<<<<<< HEAD
-        "test/flpSandbox.html#zcbosb0002-tile"
-=======
         "test/flpSandbox.html#z002sb002-tile"
->>>>>>> 8af99bd (git commit)
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std",
       "env": {
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-<<<<<<< HEAD
-        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zcbo_sb_0002\"}"
-      }
-    },
-    {
-      "name": "Start zcbo_sb_0002 Local",
-=======
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/z002_sb_002\"}"
       }
     },
     {
       "name": "Start z002_sb_002 Local",
->>>>>>> 8af99bd (git commit)
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
@@ -99,22 +71,14 @@
         "--config",
         "./ui5-local.yaml",
         "--open",
-<<<<<<< HEAD
-        "test/flpSandbox.html#zcbosb0002-tile"
-=======
         "test/flpSandbox.html#z002sb002-tile"
->>>>>>> 8af99bd (git commit)
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std",
       "env": {
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-<<<<<<< HEAD
-        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zcbo_sb_0002\"}"
-=======
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/z002_sb_002\"}"
->>>>>>> 8af99bd (git commit)
       }
     }
   ]

@@ -1,11 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-<<<<<<< HEAD
-    "id": "zcbosb0002",
-=======
     "id": "z002sb002",
->>>>>>> 8af99bd (git commit)
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -16,12 +12,6 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
-<<<<<<< HEAD
-      "version": "1.17.1",
-      "toolsId": "06b2e2aa-185e-4056-802e-34d6f830b5c6"
-    },
-    "dataSources": {
-=======
       "version": "1.18.4",
       "toolsId": "ebb22244-27aa-40fe-8c3e-707d9579a3b0"
     },
@@ -33,7 +23,6 @@
           "localUri": "localService/mainService/Z002_SB_002_UI_01_VAN.xml"
         }
       },
->>>>>>> 8af99bd (git commit)
       "annotation": {
         "type": "ODataAnnotation",
         "uri": "annotations/annotation.xml",
@@ -41,21 +30,6 @@
           "localUri": "annotations/annotation.xml"
         }
       },
-<<<<<<< HEAD
-      "ZUI_ASSB_0010_O2_VAN": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_ASSB_0010_O2_VAN',Version='0001')/$value/",
-        "type": "ODataAnnotation",
-        "settings": {
-          "localUri": "localService/mainService/ZUI_ASSB_0010_O2_VAN.xml"
-        }
-      },
-      "mainService": {
-        "uri": "/sap/opu/odata/sap/ZUI_ASSB_0010_O2/",
-        "type": "OData",
-        "settings": {
-          "annotations": [
-            "ZUI_ASSB_0010_O2_VAN"
-=======
       "mainService": {
         "uri": "/sap/opu/odata/sap/Z002_SB_002_UI_01/",
         "type": "OData",
@@ -63,7 +37,6 @@
           "annotations": [
             "Z002_SB_002_UI_01_VAN",
             "annotation"
->>>>>>> 8af99bd (git commit)
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
@@ -72,17 +45,10 @@
     },
     "crossNavigation": {
       "inbounds": {
-<<<<<<< HEAD
-        "ZSB0002-setting": {
-          "semanticObject": "ZSB0002",
-          "action": "setting",
-          "title": "{{ZSB0002-setting.flpTitle}}",
-=======
         "z002_sb_002-manage": {
           "semanticObject": "z002_sb_002",
           "action": "manage",
           "title": "{{z002_sb_002-manage.flpTitle}}",
->>>>>>> 8af99bd (git commit)
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
@@ -92,10 +58,7 @@
     }
   },
   "sap.ui": {
-<<<<<<< HEAD
-=======
     "fullWidth": true,
->>>>>>> 8af99bd (git commit)
     "technology": "UI5",
     "icons": {
       "icon": "",
@@ -114,11 +77,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-<<<<<<< HEAD
-      "minUI5Version": "1.130.8",
-=======
       "minUI5Version": "1.130.11",
->>>>>>> 8af99bd (git commit)
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -137,9 +96,6 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-<<<<<<< HEAD
-          "bundleName": "zcbosb0002.i18n.i18n"
-=======
           "bundleName": "z002sb002.i18n.i18n"
         }
       },
@@ -153,20 +109,11 @@
           "metadataUrlParams": {
             "sap-value-list": "none"
           }
->>>>>>> 8af99bd (git commit)
         }
       },
       "@i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "uri": "i18n/i18n.properties"
-<<<<<<< HEAD
-      },
-      "": {
-        "dataSource": "mainService",
-        "preload": true,
-        "settings": {}
-=======
->>>>>>> 8af99bd (git commit)
       }
     },
     "resources": {
@@ -184,23 +131,11 @@
       "forceGlobalRefresh": false,
       "objectPageHeaderType": "Dynamic",
       "considerAnalyticalParameters": true,
-<<<<<<< HEAD
-      "showDraftToggle": false,
-      "flexibleColumnLayout": {
-        "defaultTwoColumnLayoutType": "TwoColumnsMidExpanded",
-        "defaultThreeColumnLayoutType": "ThreeColumnsMidExpanded"
-      }
-    },
-    "pages": {
-      "ListReport|ZC_ASSB_0020": {
-        "entitySet": "ZC_ASSB_0020",
-=======
       "showDraftToggle": false
     },
     "pages": {
       "ListReport|Z002_SB_002_P_01": {
         "entitySet": "Z002_SB_002_P_01",
->>>>>>> 8af99bd (git commit)
         "component": {
           "name": "sap.suite.ui.generic.template.ListReport",
           "list": true,
@@ -219,13 +154,8 @@
           }
         },
         "pages": {
-<<<<<<< HEAD
-          "ObjectPage|ZC_ASSB_0020": {
-            "entitySet": "ZC_ASSB_0020",
-=======
           "ObjectPage|Z002_SB_002_P_01": {
             "entitySet": "Z002_SB_002_P_01",
->>>>>>> 8af99bd (git commit)
             "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
             "component": {
               "name": "sap.suite.ui.generic.template.ObjectPage"
